@@ -47,6 +47,7 @@ export_logs/
 *.npz
 *.pdf
 *.rtf
+*.md
 
 # Generated image data
 *.jpg
@@ -57,6 +58,5 @@ export_logs/
 *.tiff
 *.webp
 
-# Keep project notebooks and specs trackable.
+# Keep project notebooks trackable.
 !*.ipynb
-!*.md
