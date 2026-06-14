@@ -1,36 +1,53 @@
-# macOS / editor noise
+# Operating-system and editor files
 .DS_Store
 ._*
 .Spotlight-V100/
 .Trashes/
 .vscode/
 .idea/
+*~
+*.swp
 
-# Python / notebook runtime noise
+# Python and notebook caches
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+htmlcov/
 
 # Local environments
 .venv/
 venv/
 env/
 
-# Local dataset folders and generated pipeline outputs
-Soiling_DS_v2_14/
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated pipeline outputs
 datasets/
+dataset/
+Soiling_DS_v2_14/
 dataset_yolo/
+dataset_yolo_v4/
+dataset_panel/
+dataset_defect/
+dataset_defect_v2/
 cleaned/
 cleaned_v2/
 cleaned_v3/
+cleaned_v4/
 sam_outputs/
 eda_outputs/
 export_logs/
+runs/
+figures/
 
-# Common large data / model artifacts
+# Downloaded archives and model artifacts
 *.zip
 *.tar
 *.tar.gz
@@ -45,18 +62,5 @@ export_logs/
 *.safetensors
 *.npy
 *.npz
-*.pdf
-*.rtf
-*.md
 
-# Generated image data
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.tif
-*.tiff
-*.webp
-
-# Keep project notebooks trackable.
-!*.ipynb
+# Keep source files, notebooks, Markdown, and deployment sample images tracked.
