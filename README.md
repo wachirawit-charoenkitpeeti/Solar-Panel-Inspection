@@ -15,4 +15,5 @@ per panel, and recommend maintenance actions through rule-based urgency levels.
 
 - Demo: https://huggingface.co/spaces/wcahca/solar-panel-inspection
 - Model weights: https://huggingface.co/wcahca/solar-panel-inspection
+- Article: https://medium.com/@kenken190509/solar-panel-inspection-0ccf9d4ca053
 
